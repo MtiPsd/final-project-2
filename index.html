@@ -14,16 +14,40 @@
       <aside class="settings-and-account"></aside>
       <section class="weather-and-time"></section>
       <section class="search-and-apps"></section>
+
       <section class="todo">
-        <!-- <div class="todo__title">
+        <div class="todo__title">
           <p>دست نویس</p>
+          <div class="divider"></div>
         </div>
         <ul class="todo__list">
-          <div class="todo__item">
-            
+          <li class="todo__item">
+            <!-- conditionally rendered -->
+            <i class="fa-solid fa-trash"></i>
+
+            <div>
+              <p class="item--text">کار شماره اول من</p>
+              <div class="checkbox"></div>
+            </div>
+          </li>
+        </ul>
+
+        <form class="todo__form">
+          <div class="input-wrapper">
+            <button class="add-btn">+</button>
+            <input
+              type="text"
+              id="todo-input"
+              placeholder="نوشتن تسک جدید"
+            />
           </div>
-        </ul> -->
+        </form>
       </section>
     </main>
+
+    <script
+      src="https://kit.fontawesome.com/c22830fa84.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

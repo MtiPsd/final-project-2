@@ -2,7 +2,7 @@
 
 .container {
   display: grid;
-  grid-template-rows: 5rem min-content;
+  grid-template-rows: 5rem calc(100dvh - 15rem);
   grid-template-columns:
     [main-start] minmax(12rem, 1fr) [center-start] minmax(24rem, 2fr)
     [center-end] minmax(12rem, 1fr) [main-end];
@@ -17,19 +17,21 @@
 }
 
 .todo {
-  background-color: orange;
   grid-column: center-end / main-end;
   grid-row: 2 / 3;
+  background-color: var(--color-primary);
+  border-radius: var(--radius-md);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .search-and-apps {
-  background-color: pink;
   grid-column: center-start / center-end;
   grid-row: 2 / 3;
 }
 
 .weather-and-time {
-  background-color: aqua;
   grid-column: center-start / main-start;
   grid-row: 2 / 3;
 }
