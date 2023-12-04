@@ -1,14 +1,10 @@
 /* @import url("abstracts/variables.css"); */
-@import url("base/animations.css");
-@import url("base/fonts.css");
-@import url("base/base.css");
-@import url("components/applications.css");
-@import url("components/oghat.css");
-@import url("components/searchGoogle.css");
-@import url("components/time.css");
-@import url("components/todo.css");
-@import url("components/weather.css");
-@import url("layouts/layout.css");
+@import url("fonts.css");
+@import url("layout.css");
+@import url("reset.css");
+@import url("searchAndApps.css");
+@import url("todo.css");
+@import url("weatherAndTime.css");
 
 :root {
   --color-primary: #ffffff;
