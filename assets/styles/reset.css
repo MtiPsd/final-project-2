@@ -54,3 +54,21 @@ h6 {
 li {
   list-style: none;
 }
+
+input {
+  width: 80%;
+  height: 100%;
+  color: var(--color-purple-600);
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+}
+
+input::placeholder {
+  color: var(--color-purple-100);
+}
+
+input:focus {
+  border: none;
+  outline: none;
+}

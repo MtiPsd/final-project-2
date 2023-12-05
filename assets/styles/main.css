@@ -2,10 +2,10 @@
 @import url("fonts.css");
 @import url("layout.css");
 @import url("reset.css");
-@import url("searchAndApps.css");
+@import url("apps.css");
+@import url("searchGoogle.css");
 @import url("todo.css");
 @import url("weatherAndTime.css");
-
 :root {
   --color-primary: #ffffff;
   --color-secondary: #f8f8f8;
@@ -22,16 +22,17 @@
   --color-green-700: #3ec469;
   --color-black-50: #0000008c;
   --color-black: #000;
-
   --color-purple-50: #7f89a6b2;
   --color-purple-100: #95a5bb;
   --color-purple-200: #7f89a6;
+  --color-purple-400: #3d518f;
   --color-purple-600: #1f2e5b;
 
   --gap-md: 1.6rem;
   --gap-xs: 0.4rem;
 
-  --radius-md: 2.4rem;
+  --radius-bg: 2.4rem;
+  --radius-md: 1.8rem;
   --radius-sm: 1rem;
   --radius-xs: 0.6rem;
 

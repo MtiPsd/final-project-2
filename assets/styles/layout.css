@@ -18,7 +18,8 @@
   grid-column: center-end / main-end;
   grid-row: 2 / 4;
   background-color: var(--color-primary);
-  border-radius: var(--radius-md);
+  height: 80dvh;
+  border-radius: var(--radius-bg);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -27,9 +28,15 @@
 .search {
   grid-column: center-start / center-end;
   grid-row: 2 / 3;
+  background-color: var(--color-primary);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2.5rem;
 }
 
-.applications {
+.apps {
   grid-column: center-start / center-end;
   grid-row: 3 / 4;
 }
