@@ -1,0 +1,143 @@
+.todo__title {
+  font-size: var(--font-title);
+  font-weight: 600;
+}
+
+.todo__title > p {
+  padding: 1.5rem 1.5rem 0 0;
+}
+
+.divider {
+  background-color: var(--color-grey-50);
+  width: 100%;
+  height: 0.1rem;
+  margin: 1.5rem 0;
+}
+
+.todo__list {
+  flex-grow: 1;
+  padding: 0 1.5rem;
+}
+
+.todo__item {
+  padding: 1rem;
+  text-align: right;
+  display: flex;
+  width: 100%;
+  height: 4rem;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-grey-50);
+  color: var(--color-purple-600);
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+.todo__item:hover {
+  border: 1px solid var(--color-grey-100);
+}
+
+.todo__item:hover .fa-trash {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.fa-trash {
+  color: var(--color-purple-200);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.fa-trash:hover {
+  color: var(--color-grey-100);
+}
+
+.todo__item > div {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item--text {
+  flex-grow: 1;
+  width: 60%;
+  direction: rtl;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.checkbox {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: var(--color-green-100);
+  border: 1px solid var(--color-green-700);
+  border-radius: 0.4rem;
+  margin-left: 0.8rem;
+}
+
+.todo__form {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.input-wrapper {
+  flex-grow: 1;
+  align-items: center;
+  border: 1px solid var(--color-grey-50);
+  height: 4rem;
+  border-radius: var(--radius-xs);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 1.5rem;
+  padding-left: 0.5rem;
+  font-weight: 600;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#todo-input {
+  width: 80%;
+  height: 100%;
+  color: var(--color-purple-600);
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+}
+
+#todo-input::placeholder {
+  color: var(--color-purple-100);
+}
+
+#todo-input:focus {
+  border: none;
+  outline: none;
+}
+
+.add-btn {
+  font-size: 2rem;
+  color: var(--color-grey-100);
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  transition: all 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: var(--color-grey-100);
+  color: white;
+}
