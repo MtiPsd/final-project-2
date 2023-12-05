@@ -30,7 +30,7 @@
 
 .search__btn {
   background-color: var(--color-purple-400);
-  color: white;
+  color: var(--color-secondary);
   font-size: 1.7rem;
   width: 5rem;
   height: 3.2rem;

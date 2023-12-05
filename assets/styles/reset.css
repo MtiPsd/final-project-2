@@ -37,7 +37,6 @@ button,
 textarea,
 select {
   font: inherit;
-  text-align: right;
 }
 
 p,
@@ -62,6 +61,8 @@ input {
   font-size: 1.5rem;
   border: none;
   outline: none;
+  text-align: right;
+  direction: rtl;
 }
 
 input::placeholder {
