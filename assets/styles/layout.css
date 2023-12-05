@@ -51,4 +51,7 @@
 .weather-and-time {
   grid-column: center-start / main-start;
   grid-row: 2 / 4;
+  background-color: var(--color-primary);
+  border-radius: var(--radius-md);
+  height: 28.5rem;
 }

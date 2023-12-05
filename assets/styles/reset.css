@@ -73,3 +73,18 @@ input:focus {
   border: none;
   outline: none;
 }
+
+option {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-size: inherit;
+  line-height: inherit;
+  border: none;
+  outline: none;
+}
