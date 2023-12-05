@@ -1,0 +1,26 @@
+.app {
+  height: 8rem;
+  border-radius: 1.3rem;
+  width: 8rem;
+  background-color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: var(--color-grey-100);
+  cursor: pointer;
+}
+
+.app:hover {
+  border: 2px dotted var(--color-slate-700);
+}
+
+.app:first-child a {
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: var(--color-purple-400);
+}

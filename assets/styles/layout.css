@@ -39,6 +39,13 @@
 .apps {
   grid-column: center-start / center-end;
   grid-row: 3 / 4;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  justify-items: center;
+  align-content: start;
+  row-gap: 0.8rem;
+  direction: rtl;
+  /* grid-template-rows: repeat(auto-fit); */
 }
 
 .weather-and-time {
