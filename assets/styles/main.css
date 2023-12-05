@@ -11,13 +11,16 @@
   --color-secondary: #f8f8f8;
   --color-teriary: #f3f4f6;
   --color-background: #c4def7;
+  --color-grey-20: #babdc642;
   --color-grey-50: #babdc69b;
   --color-grey-100: #babdc6;
+  --color-grey-300: #95979d;
+  --color-slate-200: #8991ada8;
   --color-slate-500: #8991ad;
   --color-slate-700: #3d518f;
   --color-azure-500: #13adee;
   --color-azure-600: #56a0ee;
-  --color-azure-700: #276ef7;
+  --color-azure-700: #246df7;
   --color-green-100: #cef0d9;
   --color-green-700: #3ec469;
   --color-black-50: #0000008c;

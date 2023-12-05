@@ -18,6 +18,7 @@ body {
   font-family: Vazirmatn;
   font-weight: 400;
   background-color: var(--color-background);
+  /* font-feature-settings: "aalt"; */
 }
 
 a,
@@ -70,6 +71,18 @@ input::placeholder {
 }
 
 input:focus {
+  border: none;
+  outline: none;
+}
+
+option {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+select {
+  font-size: inherit;
+  line-height: inherit;
   border: none;
   outline: none;
 }

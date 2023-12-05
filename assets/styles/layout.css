@@ -51,4 +51,14 @@
 .weather-and-time {
   grid-column: center-start / main-start;
   grid-row: 2 / 4;
+  background-color: var(--color-primary);
+  border-radius: var(--radius-md);
+  height: 28.5rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+  text-align: right;
+  direction: rtl;
+  overflow: hidden;
 }

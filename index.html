@@ -2,17 +2,66 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta http-equiv="Content-Language" content="fa" />
     <link rel="stylesheet" href="assets/styles/main.css" />
     <title>weather / date/ time</title>
   </head>
   <body>
     <main class="container">
       <aside class="settings-and-account"></aside>
-      <section class="weather-and-time"></section>
+
+      <!-- ====================== Weather, Time, Date  ====================== -->
+      <section class="weather-and-time">
+        <div class="time__part">
+          <h3>22:31</h3>
+          <h4>11 آذر</h4>
+          <div>
+            <div class="date lunar-date">
+              <p>18/رجب/1445</p>
+            </div>
+            <div class="date christian- date">
+              <p>2021/dec/2</p>
+            </div>
+          </div>
+
+          <div class="dropdowns">
+            <select>
+              <option>تایمر</option>
+            </select>
+
+            <select>
+              <option>اوقات شرعی</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="weather__part">
+          <div class="weather__degree">
+            <h3>12°</h3>
+            <img src="assets/images/rain.png" alt="weather state" />
+          </div>
+
+          <div class="weather__funny">
+            <p>بس ناجوانمردانه سرد</p>
+            <div>
+              <img src="assets/images/snowflake.png" alt="" />
+            </div>
+          </div>
+
+          <div class="weather__status">
+            <p><span>13</span>° حداکثر</p>
+            <p>.</p>
+            <p><span>12</span>° حداقل</p>
+          </div>
+
+          <select>
+            <option>
+              پیش بینی
+              <i class="fa-solid fa-chevron-down"></i>
+            </option>
+          </select>
+        </div>
+      </section>
 
       <!-- ====================== Search ====================== -->
       <section class="search">
@@ -108,6 +157,8 @@
       </section>
     </main>
 
+    <!-- ================ Scripts ================ -->
+    <script type="module" src="assets/scripts/index.js"></script>
     <script
       src="https://kit.fontawesome.com/c22830fa84.js"
       crossorigin="anonymous"
