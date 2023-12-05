@@ -2,10 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta http-equiv="Content-Language" content="fa" />
     <link rel="stylesheet" href="assets/styles/main.css" />
     <title>weather / date/ time</title>
   </head>
@@ -19,22 +16,23 @@
           <h3>22:31</h3>
           <h4>11 آذر</h4>
           <div>
-            <span>18/رجب/1445</span>
-            <span>2021/dec/2</span>
+            <div class="date lunar-date">
+              <p>18/رجب/1445</p>
+            </div>
+            <div class="date christian- date">
+              <p>2021/dec/2</p>
+            </div>
           </div>
 
-          <select>
-            <option>
-              <i class="fa-solid fa-chevron-down"></i>تایمر
-            </option>
-          </select>
+          <div class="dropdowns">
+            <select>
+              <option>تایمر</option>
+            </select>
 
-          <select>
-            <option>
-              اوقات شرعی
-              <i class="fa-solid fa-chevron-down"></i>
-            </option>
-          </select>
+            <select>
+              <option>اوقات شرعی</option>
+            </select>
+          </div>
         </div>
 
         <div class="weather__part">
@@ -48,8 +46,9 @@
             <img src="assets/images/snowflake.png" alt="" />
           </div>
 
-          <span>13° حداکثر</span>
           <span>13° حداقل</span>
+          <span></span>
+          <span>13° حداکثر</span>
 
           <select>
             <option>
@@ -154,6 +153,8 @@
       </section>
     </main>
 
+    <!-- ================ Scripts ================ -->
+    <script type="module" src="assets/scripts/index.js"></script>
     <script
       src="https://kit.fontawesome.com/c22830fa84.js"
       crossorigin="anonymous"

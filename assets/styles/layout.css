@@ -54,4 +54,10 @@
   background-color: var(--color-primary);
   border-radius: var(--radius-md);
   height: 28.5rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1rem;
+  text-align: right;
+  direction: rtl;
 }

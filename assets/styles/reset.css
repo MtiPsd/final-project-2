@@ -18,6 +18,7 @@ body {
   font-family: Vazirmatn;
   font-weight: 400;
   background-color: var(--color-background);
+  /* font-feature-settings: "aalt"; */
 }
 
 a,
@@ -80,9 +81,6 @@ option {
 }
 
 select {
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
   font-size: inherit;
   line-height: inherit;
   border: none;
