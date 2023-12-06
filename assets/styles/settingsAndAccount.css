@@ -1,0 +1,12 @@
+.fa-gear,
+.fa-user {
+  cursor: pointer;
+  font-size: 2rem;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.fa-gear:hover,
+.fa-user:hover {
+  color: var(--color-teriary);
+}
