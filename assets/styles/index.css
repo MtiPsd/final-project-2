@@ -1,13 +1,13 @@
-/* @import url("abstracts/variables.css"); */
 @import url("fonts.css");
 @import url("layout.css");
 @import url("reset.css");
-@import url("apps.css");
+@import url("applications.css");
 @import url("searchGoogle.css");
 @import url("todo.css");
 @import url("weatherAndTime.css");
 @import url("settingsAndAccount.css");
 @import url("responsive.css");
+
 :root {
   --color-primary: #ffffff;
   --color-secondary: #f8f8f8;
