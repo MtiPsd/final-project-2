@@ -24,3 +24,8 @@
   gap: 0.5rem;
   color: var(--color-purple-400);
 }
+
+.app img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
