@@ -7,6 +7,7 @@
 @import url("todo.css");
 @import url("weatherAndTime.css");
 @import url("settingsAndAccount.css");
+@import url("responsive.css");
 :root {
   --color-primary: #ffffff;
   --color-secondary: #f8f8f8;

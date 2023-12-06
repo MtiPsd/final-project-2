@@ -28,6 +28,11 @@
   font-weight: 300;
 }
 
+.search--input__wrapper img {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
 .search__btn {
   background-color: var(--color-purple-400);
   color: var(--color-secondary);

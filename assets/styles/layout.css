@@ -14,8 +14,7 @@
   grid-row: 1 / 2;
   display: flex;
   align-items: center;
-
-  gap: 2rem;
+  font-size: 2rem;
 }
 
 .todo {
