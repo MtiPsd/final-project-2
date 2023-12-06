@@ -1,4 +1,4 @@
-.search--input__wrapper {
+.search__input--wrapper {
   width: 100%;
   display: flex;
   align-items: center;
@@ -9,7 +9,7 @@
   background-color: var(--color-teriary);
 }
 
-.search--input__wrapper > div {
+.search__input--wrapper > div {
   height: 100%;
   display: flex;
   align-items: center;
@@ -18,17 +18,17 @@
   flex-grow: 1;
 }
 
-.search--input__wrapper input {
+.search__input--wrapper input {
   height: 100%;
   background-color: var(--color-teriary);
 }
 
-.search--input__wrapper input::placeholder {
+.search__input--wrapper input::placeholder {
   color: var(--color-grey-100);
   font-weight: 300;
 }
 
-.search--input__wrapper img {
+.search__input--wrapper img {
   height: 2.4rem;
   width: 2.4rem;
 }

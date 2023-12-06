@@ -1,4 +1,4 @@
-.app {
+.apps__unit {
   height: 8rem;
   border-radius: 1.3rem;
   width: 8rem;
@@ -11,11 +11,11 @@
   cursor: pointer;
 }
 
-.app:hover {
+.apps__unit:hover {
   border: 2px dotted var(--color-slate-700);
 }
 
-.app:first-child a {
+.apps__unit:first-child a {
   font-size: 1.3rem;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
   color: var(--color-purple-400);
 }
 
-.app img {
+.apps__unit img {
   width: 3.5rem;
   height: 3.5rem;
 }

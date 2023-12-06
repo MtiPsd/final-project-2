@@ -64,7 +64,7 @@
   justify-content: space-between;
 }
 
-.item--text {
+.todo__item--text {
   flex-grow: 1;
   width: 60%;
   direction: rtl;
@@ -73,7 +73,7 @@
   text-overflow: ellipsis;
 }
 
-.checkbox {
+.todo__item--checkbox {
   width: 1.5rem;
   height: 1.5rem;
   background-color: var(--color-green-100);
