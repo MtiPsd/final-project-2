@@ -6,6 +6,7 @@
 @import url("searchGoogle.css");
 @import url("todo.css");
 @import url("weatherAndTime.css");
+@import url("settingsAndAccount.css");
 :root {
   --color-primary: #ffffff;
   --color-secondary: #f8f8f8;
