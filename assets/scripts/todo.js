@@ -10,8 +10,8 @@ const input = document.getElementById("todo-input");
 let tasks = getDataFromLocalStorage("todo") || [];
 
 export function getTasks() {
-  const tasks = getDataFromLocalStorage?.("todo");
-  if (tasks) {
+  const storageTasks = getDataFromLocalStorage?.("todo");
+  if (storageTasks) {
     renderTasks(tasks);
   }
 }
@@ -23,13 +23,13 @@ function createTask(e) {
   if (e.key === "Enter" || e.type === "click") {
     e.preventDefault();
 
-    if (!input.value.trim()) {
-      alert("Type something, bro!");
+    if (!title) {
+      alert("لطفا فیلد را پر کنید");
       return;
     }
 
     const newTask = { title, id };
-    tasks = [...tasks, newTask];
+    tasks = [newTask, ...tasks];
     saveDataToLocalStorage("todo", tasks);
     renderTasks(tasks);
 
