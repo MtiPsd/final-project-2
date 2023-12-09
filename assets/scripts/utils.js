@@ -1,4 +1,4 @@
-function getPersonNumbers(str) {
+export function convertPersonNumbers(str) {
   let map = ["۰", "۱", "۲", "۳", "۴", "۵", "۶", "۷", "۸", "۹"];
   let newStr = "";
   str = String(str);
@@ -10,6 +10,10 @@ function getPersonNumbers(str) {
 }
 
 ////////////////////////////////////
+
+export function formatDecimal(number) {
+  return convertPersonNumbers(number.toString().split(".").at(0));
+}
 
 export function saveDataToLocalStorage(key, data) {
   try {
@@ -29,4 +33,40 @@ export function getDataFromLocalStorage(key) {
     console.error("Error retrieving data from local storage:", error);
     return null;
   }
+}
+
+//////////////////////////
+
+export function formatIslamicHijriDate(islamicHijri) {
+  const dayInMonth = islamicHijri.dayInMonth.padStart(2, "0");
+  const formattedYear = convertPersonNumbers(
+    islamicHijri.year.split(" ").at(0),
+  );
+  const formattedDay = convertPersonNumbers(dayInMonth);
+  return `${formattedYear}/${islamicHijri.month}/${formattedDay}`;
+}
+
+export function formatMiladiDate(miladi) {
+  const monthAbbreviation = miladi.month
+    .substring(0, 3)
+    .toLowerCase();
+  const formattedYear = convertPersonNumbers(miladi.year);
+  const formattedDay = convertPersonNumbers(
+    miladi.dayInMonth.padStart(2, "0"),
+  );
+
+  return `${formattedYear}/${monthAbbreviation}/${formattedDay}`;
+}
+
+export function formatShamsiDate(shamsi) {
+  return `${shamsi.dayInMonth} ${shamsi.month}`;
+}
+
+export function formatTime(currentTimestamp) {
+  const date = new Date(currentTimestamp);
+  const hours = date.getHours().toString().padStart(2, "0");
+  const minutes = date.getMinutes().toString().padStart(2, "0");
+  return `${convertPersonNumbers(hours)}:${convertPersonNumbers(
+    minutes,
+  )}`;
 }
