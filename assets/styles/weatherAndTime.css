@@ -38,6 +38,10 @@
   word-wrap: break-word;
 }
 
+.christian-date > p {
+  direction: ltr;
+}
+
 .dropdowns {
   margin-top: 0.5rem;
   display: flex;
