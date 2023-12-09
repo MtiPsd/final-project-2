@@ -79,9 +79,9 @@
   color: var(--color-grey-100);
 }
 
-.weather__degree > img {
-  height: 2.5rem;
-  width: 2.5rem;
+.weather__img {
+  height: 3.5rem;
+  width: 3.5rem;
 }
 
 .weather__funny {
@@ -104,9 +104,8 @@
   justify-content: center;
 }
 
-.weather__funny img {
-  height: 1.3rem;
-  width: 1.3rem;
+.weather__emoji {
+  font-size: 1.3rem;
 }
 
 .weather__status {
