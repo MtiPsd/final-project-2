@@ -11,6 +11,10 @@ export function convertPersonNumbers(str) {
 
 ////////////////////////////////////
 
+export function formatDecimal(number) {
+  return convertPersonNumbers(number.toString().split(".").at(0));
+}
+
 export function saveDataToLocalStorage(key, data) {
   try {
     const jsonData = JSON.stringify(data);

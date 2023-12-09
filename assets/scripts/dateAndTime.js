@@ -6,7 +6,6 @@ import {
   formatMiladiDate,
   formatShamsiDate,
   formatTime,
-  getPersonNumbers,
 } from "./utils.js";
 
 const timeElem = document.querySelector(".time__part > h3");
@@ -20,14 +19,13 @@ async function getTime() {
       "https://kaaryar0506reactblog.liara.run/current/time",
     );
     const data = await res.json();
-    console.log(data);
     return data;
   } catch (error) {
     console.error(`Error getting date & time:`, error.message);
   }
 }
 
-async function showDateAndTime() {
+export async function showDateAndTime() {
   const data = await getTime();
   const islamicHijriDate = formatIslamicHijriDate(data.islamicHijri);
   const miladiDate = formatMiladiDate(data.miladi);
@@ -39,7 +37,3 @@ async function showDateAndTime() {
   miladiDateElem.textContent = miladiDate;
   shamsiDateElem.textContent = shamsiDate;
 }
-
-showDateAndTime();
-
-// formatIslamicHijriDate(islamicHijri);
