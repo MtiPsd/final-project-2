@@ -2,7 +2,8 @@
 
 Your digital hub for real-time weather updates, date, and time. Streamline your online experience with integrated Google search, a convenient app toolbar, and a productive todo list section. Stay organized effortlessly.
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![logo](https://github.com/MtiPsd/final-project-2/assets/95580073/7c5170ab-d7bd-43a1-a6ae-9b6d40781d12)
+
 
 ## Installation
 
@@ -17,11 +18,15 @@ Getting started :
 
 ## Demo
 
-Insert gif or link to demo
+https://github.com/MtiPsd/final-project-2/assets/95580073/66a4396f-bd78-4aa6-97bd-7949e4799bd5
+
+
 
 ## Tech Stack
 
 **Client:** Javascipt, html, css
+![283250920-99835e31-5189-4794-9e69-276af8392481](https://github.com/MtiPsd/final-project-2/assets/95580073/711b0691-6b19-4aec-b230-e9a52054c84b)![283250930-6e5bfbd1-82ee-4d2a-8e3c-7481d7b79bf9](https://github.com/MtiPsd/final-project-2/assets/95580073/50298f68-f59c-4f38-b2f5-560a38b180ab)![283250938-a390e1e6-a976-480a-a998-98332294bd1c](https://github.com/MtiPsd/final-project-2/assets/95580073/36b371af-8df7-4eaf-b362-62fdbf8c6eb6)
+
 
 ## Authors
 
