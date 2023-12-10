@@ -4,7 +4,7 @@
 
 .time__part {
   width: 50%;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
 }
@@ -57,7 +57,7 @@
 
 .weather__part {
   width: 50%;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
 }
