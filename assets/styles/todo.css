@@ -19,6 +19,7 @@
   padding: 0 1.5rem;
   overflow-y: scroll;
 }
+
 .todo__list::-webkit-scrollbar {
   width: 0.5rem;
 }
