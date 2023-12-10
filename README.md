@@ -13,7 +13,7 @@ Getting started :
 
 ```bash
   git clone https://github.com/MtiPsd/final-project-2
-  cd final-project-js
+  cd final-project-2
   run with live server
   enjoy
 ```
