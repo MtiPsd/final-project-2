@@ -124,6 +124,10 @@
   color: var(--color-slate-500);
 }
 
+.weather__part .fa-angle-down {
+  margin-top: 1.5rem;
+}
+
 .rotated-caret {
   transform: rotate(90deg);
   display: inline-block;
