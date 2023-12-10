@@ -70,3 +70,15 @@ export function formatTime(currentTimestamp) {
     minutes,
   )}`;
 }
+
+export function showSpinner(timePart, weatherPart, spinner) {
+  timePart.style.display = "none";
+  weatherPart.style.display = "none";
+  spinner.style.display = "flex";
+}
+
+export function hideSpinner(timePart, weatherPart, spinner) {
+  timePart.style.display = "flex";
+  weatherPart.style.display = "flex";
+  spinner.style.display = "none";
+}
