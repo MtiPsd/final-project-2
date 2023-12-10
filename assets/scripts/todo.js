@@ -24,7 +24,7 @@ function createTask(e) {
     e.preventDefault();
 
     if (!title) {
-      alert("لطفا فیلد را پر کنید");
+      alert("لطفا متنی را وارد کنید");
       return;
     }
 
