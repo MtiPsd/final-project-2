@@ -1,6 +1,6 @@
-/* 
-   Time & Date
-*/
+/* ******************** *
+      Time & Date 
+* ********************* */
 
 .time__part {
   width: 50%;
@@ -54,6 +54,10 @@
   font-size: 1rem;
   color: var(--color-slate-500);
 }
+
+/* ******************** *
+        Weather 
+* ********************* */
 
 .weather__part {
   width: 50%;

@@ -6,17 +6,23 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.ico"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="assets/styles/index.css" />
-    <title>weather / date/ time</title>
+    <title>Final Project JS (2)</title>
   </head>
   <body>
     <main class="container">
+      <!-- ====================== Settings Account ====================== -->
       <aside class="settings-and-account">
         <i class="fa-solid fa-gear"></i>
         <i class="fa-solid fa-user"></i>
       </aside>
 
-      <!-- ====================== Weather, Time, Date  ====================== -->
+      <!-- ====================== Weather Time Date  ====================== -->
       <section class="weather-and-time">
         <div class="loading-container">
           <!-- Loading spinner -->
@@ -98,10 +104,26 @@
         </div>
       </section>
 
-      <!-- ====================== Search ====================== -->
+      <!-- ====================== apps ====================== -->
       <section class="apps">
         <div class="apps__unit">
-          <a href="https://www.facebook.com/" target="_blank">
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="apps__unit--link"
+          >
+            <i class="fa-solid fa-grip"></i>
+            <p class="apps__unit--text apps__unit--text-first">
+              دم دستی
+            </p>
+          </a>
+        </div>
+        <div class="apps__unit">
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="apps__unit--link"
+          >
             <img
               src="assets/images/facebook.png"
               alt="facebook logo"
@@ -109,9 +131,6 @@
             />
             <p class="apps__unit--text">فیسبوک</p>
           </a>
-        </div>
-        <div class="apps__unit">
-          <i class="fa-solid fa-plus"></i>
         </div>
         <div class="apps__unit">
           <i class="fa-solid fa-plus"></i>

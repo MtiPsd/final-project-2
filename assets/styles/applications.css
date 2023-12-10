@@ -15,7 +15,7 @@
   border: 2px dotted var(--color-slate-700);
 }
 
-.apps__unit:first-child a {
+.apps__unit .apps__unit--link {
   font-size: 1.3rem;
   display: flex;
   flex-direction: column;
@@ -23,6 +23,15 @@
   justify-content: center;
   gap: 0.5rem;
   color: var(--color-purple-400);
+}
+
+.apps__unit--text-first {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.fa-grip {
+  font-size: 3rem;
 }
 
 .apps__unit img {
