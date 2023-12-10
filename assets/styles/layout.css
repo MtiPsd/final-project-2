@@ -48,8 +48,10 @@
   justify-items: center;
   align-content: start;
   row-gap: 0.8rem;
+  height: 49rem;
   direction: rtl;
-  /* grid-template-rows: repeat(auto-fit); */
+  overflow-y: auto;
+  position: relative;
 }
 
 .weather-and-time {

@@ -18,6 +18,11 @@
 
       <!-- ====================== Weather, Time, Date  ====================== -->
       <section class="weather-and-time">
+        <div class="loading-container">
+          <!-- Loading spinner -->
+          <div class="spinner"></div>
+        </div>
+
         <div class="time__part">
           <h3>22:31</h3>
           <h4>11 آذر</h4>
@@ -31,13 +36,19 @@
           </div>
 
           <div class="dropdowns">
-            <select>
-              <option>تایمر</option>
-            </select>
+            <div class="select-wrapper">
+              <select>
+                <option>تایمر</option>
+              </select>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
 
-            <select>
-              <option>اوقات شرعی</option>
-            </select>
+            <div class="select-wrapper">
+              <select>
+                <option>اوقات شرعی</option>
+              </select>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
           </div>
         </div>
 
@@ -64,12 +75,12 @@
             <p><span class="weather__status--min">12</span>° حداقل</p>
           </div>
 
-          <select>
-            <option>
-              پیش بینی
-              <i class="fa-solid fa-chevron-down"></i>
-            </option>
-          </select>
+          <div class="select-wrapper">
+            <select>
+              <option>پیش بینی</option>
+            </select>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
         </div>
       </section>
 
@@ -98,6 +109,12 @@
             />
             <p class="apps__unit--text">فیسبوک</p>
           </a>
+        </div>
+        <div class="apps__unit">
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="apps__unit">
+          <i class="fa-solid fa-plus"></i>
         </div>
         <div class="apps__unit">
           <i class="fa-solid fa-plus"></i>

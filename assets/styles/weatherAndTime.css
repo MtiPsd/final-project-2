@@ -50,16 +50,10 @@
 }
 
 .dropdowns select {
-  border-radius: var(--radius-md);
   padding: 0.5rem;
-  border: 1px solid var(--color-grey-20);
   font-size: 1rem;
   color: var(--color-slate-500);
 }
-
-/* 
-   Weather
-*/
 
 .weather__part {
   width: 50%;
@@ -75,13 +69,13 @@
 }
 
 .weather__degree > h3 {
-  font-size: 2.8rem;
+  font-size: 3rem;
   color: var(--color-grey-100);
 }
 
 .weather__img {
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 4rem;
+  width: 4rem;
 }
 
 .weather__funny {
@@ -123,15 +117,59 @@
 }
 
 .weather__part select {
-  margin-top: 1.4rem;
   border-radius: var(--radius-md);
   padding: 0.5rem;
-  border: 1px solid var(--color-grey-20);
   font-size: 1rem;
+  margin-top: 1rem;
   color: var(--color-slate-500);
 }
 
 .rotated-caret {
   transform: rotate(90deg);
   display: inline-block;
+}
+
+.select-wrapper {
+  border: none;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+}
+
+.fa-angle-down {
+  color: var(--color-slate-500);
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+}
+
+/* ******************** *
+    Loading Spinner 
+* ********************* */
+
+.loading-container {
+  flex-grow: 1;
+  align-self: center;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styles for the loading spinner */
+.spinner {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  animation: spin 1s linear infinite;
+}
+
+/* Animation for the spinning effect */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

@@ -17,6 +17,20 @@
 .todo__list {
   flex-grow: 1;
   padding: 0 1.5rem;
+  overflow-y: scroll;
+}
+
+.todo__list::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.todo__list::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.todo__list::-webkit-scrollbar-thumb {
+  border-radius: 15rem;
+  background-color: var(--color-grey-100);
 }
 
 .todo__item {
@@ -104,7 +118,7 @@
   padding-right: 1.5rem;
   padding-left: 0.5rem;
   font-weight: 600;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 #todo-input {

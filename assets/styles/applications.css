@@ -29,3 +29,15 @@
   width: 3.5rem;
   height: 3.5rem;
 }
+
+.apps::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.apps::-webkit-scrollbar-track {
+  display: none;
+}
+
+.apps::-webkit-scrollbar-thumb {
+  display: none;
+}
